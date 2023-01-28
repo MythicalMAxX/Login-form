@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="1024">
+    <title>Login Form</title>
+    <style>
+        body{
+            background-image: url("res/bg.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            overflow: hidden;
+        }
+
+        .form{
+            margin-top: 10%;
+            margin-bottom: 10%;
+            margin-left: 30%;
+            margin-right: 30%;
+            background-color: white;
+            opacity:0.5;
+            height:500px;
+            width:350px;
+            text-align:center;
+            border-radius: 25px;
+            min-width: 40%;
+            min-height: 500px;
+
+        }
+
+        .input_btn{
+            height: 50px;
+            width: 70%;
+            border-radius: 25px;
+            margin-bottom: 30px;
+
+        }
+
+        .form_label{
+            font-size: 20px;
+            font-family: sans-serif;
+            font-style: italic;
+        }
+
+        .submit-btn{
+            height: 50px;
+            width: 200px;
+            background-color: blue;
+            color: white;
+            font-size: 20px;
+            font-family: sans-serif;
+            font-style:italic;
+            border-radius: 25px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .captcha{
+            text-align: left;
+            height: 20px;
+            width: 20px;
+        }
+
+        .pass{
+            text-align:left;
+            font-size: 20px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="form"><br>
+        <h1>Login</h1>
+        <form>
+            <label class="form_label">Username:</label><br>
+            <input class="input_btn" type="text"><br>
+            <label class="form_label">Password:</label><br>
+            <input class="input_btn" type="password"><br>
+            <input class="captcha" type="checkbox">
+            <label class="pass">save password</label><br>
+            <input class="submit-btn" type="submit" name="Submit"><br>
+            <label style="text-align:right;"><a href="#">forgot password</a></label>
+        </form>
+    </div>
+</body>
+</html>
